@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 30%;
+}
+
+.logo img{
+    width: 65%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.nav-list li{
+    list-style: none;
+    padding-right: 60px;
+    color: rgb(14, 129, 206);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(2, 27, 78);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:300;
+    font-size: 15px;
+
+}
+
+.nav-list li a:hover{
+    text-decoration: underline;
+    color: rgb(14, 129, 206);
+}
+
+.background {
+    background:rgba(3, 52, 150, 0.211)  url('../img/pexels-chokniti-khongchum-2280571.jpg');
+    background-size:cover;
+    background-blend-mode: darken;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+
+.box-main{
+    padding: 300px 80px;
+    width: 50%;
+}
+
+.bigtext{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.smalltext{
+    font-size: 20px;
+}
+
+.sec1{
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image1 img{
+    height: 400px;
+    padding: 0 100px;
+}
+
+.text{
+    padding: 0 100px;
+}
+
+.title{
+    color:rgb(14, 129, 206) ;
+}
+
+.tag{
+    color: rgb(2, 27, 78);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.subtag{
+    color: rgb(155, 155, 155);
+}
+
+.sec2{
+    height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:rgba(3, 85, 248, 0.065);
+    background-size:cover;
+    background-blend-mode: darken;
+}
+
+.text2{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.footer{
+    height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:rgb(2, 27, 78);
+}
+
+.firstfooter{
+    padding-top: 120px;
+    display: flex;
+    color: white;
+    width: 80%;
+    margin: auto;
+
+}
+
+.firstfooter li{
+    list-style: none;
+    font-size: 12px;
+}
+
+.firstfooter li a{
+    color: white;
+    text-decoration: none;
+}
+
+.head1{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.firsttab{
+    width: 23%;
+
+}
+
+.secondtab{
+    width: 23%;
+}
+
+.thirdtab{
+    width: 30%;
+}
+
+.fourthtab{
+    width: 25%;
+
+}
+
+.secondfooter{
+    display: flex;
+    color: white;
+    font-size: 12px;
+    width: 95%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.whitelogo{
+    width: 22%;
+}
+
+.contactlink{
+    width: 28%;
+}
+
+.copyright{
+    width: 50%;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.whitelogo img{
+    height: 60px;
+}
+
